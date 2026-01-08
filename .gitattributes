@@ -1,0 +1,9 @@
+# Force .com files to be treated as data (ignoring them for language stats)
+*.com linguist-vendored
+
+# Ensure Python files are prioritized
+*.py linguist-detectable=true
+
+# Ignore other non-code folders if they exist
+tools/* linguist-vendored
+final_project/* linguist-vendored
